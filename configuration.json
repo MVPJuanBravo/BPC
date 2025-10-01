@@ -1,0 +1,144 @@
+{
+  "processName": "Business Process Catalog",
+  "description": "A comprehensive process template for managing business processes in Azure DevOps",
+  "version": "1.0.0",
+  "configuration": {
+    "sourceProcess": "Agile",
+    "customization": {
+      "description": "This template extends the Agile process with custom work item types for business process management"
+    }
+  },
+  "workItemTypes": [
+    {
+      "name": "Business Process",
+      "description": "Represents a business process that needs to be documented and managed",
+      "icon": "icon_book",
+      "color": "007ACC",
+      "isDisabled": false
+    },
+    {
+      "name": "Process Step",
+      "description": "Represents an individual step within a business process",
+      "icon": "icon_list",
+      "color": "00A854",
+      "isDisabled": false
+    },
+    {
+      "name": "Process Document",
+      "description": "Documentation related to a business process",
+      "icon": "icon_document",
+      "color": "F2CB1D",
+      "isDisabled": false
+    }
+  ],
+  "fields": [
+    {
+      "referenceName": "Custom.ProcessOwner",
+      "name": "Process Owner",
+      "type": "String",
+      "description": "The person or team responsible for this process",
+      "isRequired": false
+    },
+    {
+      "referenceName": "Custom.ProcessCategory",
+      "name": "Process Category",
+      "type": "String",
+      "description": "Category or domain of the business process",
+      "isRequired": false,
+      "allowedValues": [
+        "Finance",
+        "Human Resources",
+        "Operations",
+        "Sales",
+        "Marketing",
+        "IT",
+        "Compliance",
+        "Customer Service",
+        "Supply Chain",
+        "Other"
+      ]
+    },
+    {
+      "referenceName": "Custom.ProcessPriority",
+      "name": "Process Priority",
+      "type": "String",
+      "description": "Business priority of the process",
+      "isRequired": false,
+      "allowedValues": [
+        "Critical",
+        "High",
+        "Medium",
+        "Low"
+      ]
+    },
+    {
+      "referenceName": "Custom.ComplianceRequired",
+      "name": "Compliance Required",
+      "type": "Boolean",
+      "description": "Indicates if this process has compliance requirements",
+      "isRequired": false
+    },
+    {
+      "referenceName": "Custom.LastReviewDate",
+      "name": "Last Review Date",
+      "type": "DateTime",
+      "description": "Date when the process was last reviewed",
+      "isRequired": false
+    },
+    {
+      "referenceName": "Custom.NextReviewDate",
+      "name": "Next Review Date",
+      "type": "DateTime",
+      "description": "Date when the process should be reviewed next",
+      "isRequired": false
+    },
+    {
+      "referenceName": "Custom.ProcessMaturity",
+      "name": "Process Maturity",
+      "type": "String",
+      "description": "Maturity level of the process",
+      "isRequired": false,
+      "allowedValues": [
+        "Initial",
+        "Defined",
+        "Managed",
+        "Optimized"
+      ]
+    }
+  ],
+  "states": [
+    {
+      "name": "Draft",
+      "color": "B2B2B2",
+      "category": "Proposed"
+    },
+    {
+      "name": "In Review",
+      "color": "007ACC",
+      "category": "InProgress"
+    },
+    {
+      "name": "Approved",
+      "color": "00A854",
+      "category": "Resolved"
+    },
+    {
+      "name": "Active",
+      "color": "00A854",
+      "category": "Resolved"
+    },
+    {
+      "name": "Deprecated",
+      "color": "E81123",
+      "category": "Removed"
+    }
+  ],
+  "rules": [
+    {
+      "name": "Default Process Priority",
+      "description": "Sets default priority for new processes",
+      "condition": "When a work item is created",
+      "action": "Set Process Priority to Medium"
+    }
+  ]
+}
