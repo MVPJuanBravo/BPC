@@ -17,22 +17,21 @@ The template includes all mandatory and optional fields required for importing t
 
 Before you begin, ensure you have the following:
 	1.	Microsoft Business Process Catalog files
-Download the official BPC files from Microsoft:
+Download the official BPC files from Microsoft: https://www.microsoft.com/en-us/download/details.aspx?id=108187 
 👉 Microsoft Business Process Catalog (Download)
 	2.	Azure DevOps Excel Add-In
 This allows you to import the BPC files into your Azure DevOps environment.
 	3.	Microsoft Process Migrator Tool
-Use this tool to import the provided process template into Azure DevOps:
+Use this tool to import the provided process template into Azure DevOps: https://github.com/microsoft/process-migrator 
 👉 Process Migrator on GitHub
 
 ⸻
 
 🚀 How to Use
 	1.	Import the Process Template
-	•	Clone or download this repository.
 	•	Use the Process Migrator to import the process template into your Azure DevOps organization.
 	2.	Download Microsoft BPC Files
-	•	Get the catalog files from here.
+	•	Get the catalog files from: https://www.microsoft.com/en-us/download/details.aspx?id=108187 
 	3.	Open with Excel Add-In
 	•	Open the catalog files using the Azure DevOps Excel Add-In.
 	•	Map the fields to the process template.
@@ -53,7 +52,7 @@ Use this tool to import the provided process template into Azure DevOps:
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to open a pull request or create an issue in this repository.
+
 
 ⸻
 
