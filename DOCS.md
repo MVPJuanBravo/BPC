@@ -8,6 +8,7 @@ Welcome to the Business Process Catalog (BPC) documentation! This page helps you
 Start here if you're new to the BPC template.
 
 - **[README.md](README.md)** - Main documentation with overview, features, and installation instructions
+- **[GETTING-STARTED.md](GETTING-STARTED.md)** - Interactive checklist for implementation
 - **[QUICKSTART.md](QUICKSTART.md)** - 5-minute setup guide for rapid deployment
 - **[FAQ.md](FAQ.md)** - Answers to frequently asked questions
 
@@ -16,24 +17,27 @@ Learn how to customize the template for your needs.
 
 - **[configuration.json](configuration.json)** - Reference template configuration
 - **[CUSTOMIZATION.md](CUSTOMIZATION.md)** - Comprehensive customization guide
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Template structure and architecture
 
 ### Examples & Best Practices
 Real-world examples to help you get started quickly.
 
 - **[examples/sample-process.md](examples/sample-process.md)** - Complete sample business process
 
-### Contributing
-Want to help improve BPC?
+### Project Information
+Version history and contributions.
 
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history and release notes
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guidelines for contributing to the project
 - **[LICENSE](LICENSE)** - MIT License information
 
 ## 🎯 Documentation by Use Case
 
 ### "I want to get started quickly"
-1. Read [QUICKSTART.md](QUICKSTART.md)
-2. Review [examples/sample-process.md](examples/sample-process.md)
-3. Check [FAQ.md](FAQ.md) if you have questions
+1. Read [GETTING-STARTED.md](GETTING-STARTED.md) checklist
+2. Review [QUICKSTART.md](QUICKSTART.md)
+3. Check [examples/sample-process.md](examples/sample-process.md)
+4. Refer to [FAQ.md](FAQ.md) if you have questions
 
 ### "I need detailed installation instructions"
 1. Read [README.md](README.md) - Installation Instructions section
@@ -72,6 +76,12 @@ Want to help improve BPC?
 **Topics**: Overview, features, prerequisites, installation, usage, troubleshooting  
 **Read Time**: 10-15 minutes
 
+### GETTING-STARTED.md
+**Purpose**: Interactive implementation checklist  
+**Audience**: New users implementing BPC  
+**Topics**: Phase-by-phase checklist from setup to ongoing management  
+**Read Time**: Reference document (check off items as you complete them)
+
 ### QUICKSTART.md
 **Purpose**: Rapid deployment guide  
 **Audience**: Experienced Azure DevOps users who want to get started quickly  
@@ -83,6 +93,12 @@ Want to help improve BPC?
 **Audience**: Users who want to tailor the template to their needs  
 **Topics**: Template structure, UI customization, Process Migrator usage, scenarios, best practices  
 **Read Time**: 20-30 minutes
+
+### ARCHITECTURE.md
+**Purpose**: Technical architecture documentation  
+**Audience**: Advanced users and developers  
+**Topics**: Template structure, work item hierarchy, data flow, integration points  
+**Read Time**: 15-20 minutes
 
 ### FAQ.md
 **Purpose**: Answers to common questions  
@@ -101,6 +117,12 @@ Want to help improve BPC?
 **Audience**: Users creating their first processes  
 **Topics**: Complete process documentation example  
 **Read Time**: 10 minutes
+
+### CHANGELOG.md
+**Purpose**: Version history and release notes  
+**Audience**: All users tracking updates  
+**Topics**: Versions, features added, breaking changes, upgrade guides  
+**Read Time**: 5 minutes
 
 ### CONTRIBUTING.md
 **Purpose**: Guidelines for contributing to the project  
